@@ -1,0 +1,16 @@
+vector<int> v(n);
+v = {1, 2, 3, 4, 5}
+
+v.push_back(6); # inserts element to back of the vector
+v = {1, 2, 3, 4, 5, 6}
+
+v.pop_pack();  # removes element from back of the vector
+v = {1, 2, 3, 4, 5}
+
+v.front(); # return's front element of the vector
+
+v.back(); # return's back element of the vector
+
+v.size(); # return's size of the vector
+
+

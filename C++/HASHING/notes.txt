@@ -1,0 +1,18 @@
+* hasing can't be done if the array size is limited to 10^7
+* so we use hash map or {unordered_map/map}
+
+* map can store elements more than 10^7
+    - methods to obtain that map structure is:
+     1. Division Method
+     2. Folding Method
+     3. Mid Square Method
+
+* map
+    - best  : O(logN)
+    - avg   : O(logN)
+    - worst : O(logN)
+
+* unordered_map
+    - best  : O(1)
+    - avg   : O(1)
+    - worst : O(N) (due to collisions)
